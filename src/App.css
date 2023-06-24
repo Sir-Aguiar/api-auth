@@ -1,0 +1,30 @@
+.app {
+  @apply h-full w-full flex flex-col items-center justify-center;
+}
+.login {
+  @apply h-full flex flex-col items-center px-[10px] font-Plex text-jwt-black gap-[50px];
+}
+.login-input {
+  @apply p-[10px] rounded-[3px] text-[14px] w-full min-w-[275px] max-w-[275px] h-[50px] bg-[#f9f9f9] outline-none;
+}
+.form-main {
+  @apply flex flex-col items-center w-full gap-[10px];
+}
+.jwt-icon {
+  @apply w-[250px];
+}
+.login-button {
+  @apply max-w-[200px] max-h-[40px] cursor-pointer text-white-back py-2 rounded-sm w-full font-semibold;
+}
+
+.border-gradient {
+  border: 1px solid;
+  border-image-slice: 1;
+  border-width: 1px;
+}
+.purple-gradient {
+  border-image-source: linear-gradient(to right, hsla(288, 100%, 61%, 0.35), hsla(319, 100%, 64%, 0.35));
+}
+.show-svg {
+  @apply max-h-[30px] absolute top-[50%] translate-y-[-50%] right-[10px];
+}
